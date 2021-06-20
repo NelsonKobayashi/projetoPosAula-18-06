@@ -1,0 +1,83 @@
+/*importando fonte do google fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Reseter, essa sequência de comandos anula completamente o comportamento padrão do navegador */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+header{
+    position:fixed;
+    top:0;
+    width: 100%;
+ } 
+  
+nav.menu-top{
+    background-color: rgb(78, 85, 92);
+    text-align: center; 
+    padding: 30px;
+ 
+}
+
+nav a {
+    padding: 24px 30px;
+    border: solid 1px #fff;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: rgb(23, 139, 160);
+    color:#fff;
+}
+
+div.imagem-topo {
+    align-items: center;
+    margin-top: 90px;
+}
+
+img{
+    display: block;
+    width: 60%;
+    margin-left: auto;  /*combinando o margin-left com o margin-right, centralizei a imagem*/ 
+    margin-right: auto;
+}
+
+h1, h2 {
+    padding-top: 100px ;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+
+p {
+    padding: 10px 200px;
+}
+
+div.icone-whats {
+    max-width: 150px;
+    max-height: 150px;
+    padding-bottom: 10px ;
+    position: absolute; /* Esse comando deixa a div solta e  fora da sua área padrão */
+    right: 0%; /* Esse comando leva a div para a direita */
+    bottom: -155%;
+}
+
+div.icone-whats a img{
+border-radius: 20%;
+}
+
+footer{
+    border-top: 90px;
+    padding: 40px; /*retira a margem interna do meu documento*/
+    background-color: rgb(38, 39, 41); /*define a cor de fundo da minha lista*/
+    text-align: center; /*alinha os itens da lista ao centro do site*/
+    color: white;
+}
+
